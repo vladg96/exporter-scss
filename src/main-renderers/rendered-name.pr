@@ -32,7 +32,8 @@ Rendered as:
 {[ case "Shadow" ]}{[ prefix = behavior.shadowTokenPrefix /]}  
 {[ case "Border" ]}{[ prefix = behavior.borderTokenPrefix /]}  
 {[ case "Measure" ]}{[ prefix = behavior.measureTokenPrefix /]}  
-{[ case "Gradient" ]}{[ prefix = behavior.gradientTokenPrefix /]}  
+{[ case "Gradient" ]}{[ prefix = behavior.gradientTokenPrefix /]}
+{[ case "Radius" ]}{[ prefix = behavior.radiiTokenPrefix /]}  
 {[ default ]}{[ prefix = "" /]}  
 {[/]}
 {[ let tokenName = readableVariableName(context, tokenGroup, prefix) /]}
