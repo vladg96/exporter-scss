@@ -1,9 +1,9 @@
 {
     "id": "io.supernova.scss",
-    "name": "SCSS",
+    "name": "SCSS by Vlad",
     "description": "SCSS token and style exporter",
-    "author": "Ivan Terpugov & Jiri Trecak",
-    "organization": "Supernova",
+    "author": "Ivan Terpugov & Jiri Trecak & Vlad Garau",
+    "organization": "Supernova by Vlad",
     "source_dir": "src",
     "version": "1.3",
     "config": {
