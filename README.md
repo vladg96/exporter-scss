@@ -12,6 +12,7 @@ The SCSS Exporter allows you to **produce production-ready code for all product 
 - [x] Gradients
 - [x] Shadows
 - [x] Borders
+- [x] Radius
 
 You can generate all production ready-code either manually using Supernova's [VS Code extension](https://marketplace.visualstudio.com/items?itemName=SupernovaIO.pulsar-vsc-extension), or automate your code delivery pipeline using Supernova [Design Continuous Delivery](https://supernova.io/automated-code-delivery).
 
