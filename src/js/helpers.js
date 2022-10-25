@@ -88,7 +88,7 @@
       );
     }),
       Pulsar.registerFunction("pixelsToEm", function (value) {
-        return `${value["measure"] / 16}Em`;
+        return `${value["measure"] / 16}em`;
       }),
       Pulsar.registerFunction("findAliases", function e(r, n) {
         let t = n.filter(
