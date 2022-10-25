@@ -59,7 +59,7 @@ Rendered as:
 font-family: "{{ context.font.family }}";
 font-style: {{ fontStyle }};
 font-weight: {{ ds.fontWeight(context.font) }};
-font-size: {[ inject "pixelsToEm" context context.fontSize /]};
+font-size: {[ inject "rendered-measure" context context.fontSize /]};
 {[ if context.lineHeight ]}line-height: {[ inject "rendered-measure" context context.lineHeight /]};
 {[/]}
 {[ if (context.letterSpacing.unit === "Percent") ]}letter-spacing: {{ (context.letterSpacing.measure / 100).rounded(2) }}em; {[ else ]}letter-spacing: {[ inject "rendered-measure" context context.letterSpacing /]};
